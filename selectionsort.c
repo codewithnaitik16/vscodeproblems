@@ -4,7 +4,7 @@
 void selectionSort(int arr[], int n) {
     int i, j, min_idx, temp;
 
-    // One by one move the boundary of the unsorted subarray
+ 
     for (i = 0; i < n - 1; i++) {
         // Find the minimum element in the unsorted array
         min_idx = i;
