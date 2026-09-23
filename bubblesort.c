@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Function to perform Bubble Sort
+
 void bubbleSort(int arr[], int n) {
     int i, j, temp;
     int swapped;
@@ -8,7 +8,7 @@ void bubbleSort(int arr[], int n) {
     for (i = 0; i < n - 1; i++) {
         swapped = 0; // Reset flag for this pass
 
-        // Last i elements are already in place, no need to check them
+       
         for (j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
                 // Swap adjacent elements if they are in the wrong order
@@ -20,14 +20,14 @@ void bubbleSort(int arr[], int n) {
             }
         }
 
-        // If no elements were swapped in this pass, the array is already sorted
+      
         if (swapped == 0) {
             break;
         }
     }
 }
 
-// Function to print the elements of the array
+
 void printArray(int arr[], int size) {
     for (int i = 0; i < size; i++) {
         printf("%d ", arr[i]);
