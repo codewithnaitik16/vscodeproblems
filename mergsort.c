@@ -18,9 +18,9 @@ void merge(int arr[], int left, int mid, int right) {
         R[j] = arr[mid + 1 + j];
 
    
-    i = 0; // Initial index of first subarray
-    j = 0; // Initial index of second subarray
-    k = left; // Initial index of merged subarray
+    i = 0;
+    j = 0; 
+    k = left;
     
     while (i < n1 && j < n2) {
         if (L[i] <= R[j]) {
@@ -55,7 +55,7 @@ void merge(int arr[], int left, int mid, int right) {
 
 void mergeSort(int arr[], int left, int right) {
     if (left < right) {
-        // Same as (left+right)/2, but avoids overflow for large left and right values
+      
         int mid = left + (right - left) / 2;
 
        
