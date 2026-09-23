@@ -45,7 +45,7 @@ int main() {
         for (j = 0; j < cols; j++) {
             printf("%d\t", sum[i][j]);
         }
-        printf("\n"); // Newline after completing each row
+        printf("\n"); 
     }
     
     return 0;
