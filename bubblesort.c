@@ -11,12 +11,12 @@ void bubbleSort(int arr[], int n) {
        
         for (j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
-                // Swap adjacent elements if they are in the wrong order
+               
                 temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
                 
-                swapped = 1; // Mark that a swap occurred
+                swapped = 1; 
             }
         }
 
